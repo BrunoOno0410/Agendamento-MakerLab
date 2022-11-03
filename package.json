@@ -27,5 +27,7 @@
   "devDependencies": {
     "commitizen": "^4.2.5",
     "husky": "^8.0.1"
-  }
+  },
+  "repository": "https://github.com/BrunoOno0410/Agendamento-MakerLab.git",
+  "author": "Bruno <brunogiordano.ono@gmail.com>"
 }
