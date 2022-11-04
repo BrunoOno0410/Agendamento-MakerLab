@@ -14,7 +14,7 @@ export const Booking = styled('div', {
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'space-between',
-  py: '10rem',
+  py: '10vh',
   '& h2': {
     fontSize: '$lg',
     fontWeight: '700',
@@ -24,7 +24,7 @@ export const Booking = styled('div', {
 export const BookingButton = styled('button', {
   borderRadius: '16px',
   height: '5rem',
-  width: '30rem',
+  width: '30vw',
   fontSize: '$md',
   fontWeight: '700',
   backgroundColor: '$gray_100',
@@ -49,7 +49,7 @@ export const Login = styled('div', {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'space-between',
-    py: '10rem',
+    py: '10vh',
     '& h2': {
       fontSize: '$lg',
       fontWeight: '700',
@@ -59,7 +59,7 @@ export const Login = styled('div', {
 export const Input = styled('input', {
     borderRadius: '16px',
     height: '4rem',
-    width: '40rem',
+    width: '40vw',
     fontSize: '$md',
     fontWeight: '700',
     backgroundColor: '$gray_200',
@@ -78,7 +78,7 @@ export const Input = styled('input', {
 export const LoginButton = styled('button', {
     borderRadius: '16px',
     height: '5rem',
-    width: '40rem',
+    width: '40vw',
     fontSize: '$md',
     fontWeight: '700',
     backgroundColor: '$blue_800',
@@ -109,7 +109,9 @@ export const FormContainer = styled('form', {
 export const PasswordRecoverButton = styled('a', {
     style: 'none',
     textAlign: 'end',
-    width: '100%',
+    marginRight: 0,
+    marginLeft: 'auto',
+    border: 'solid 1px black',
     '&:hover': {
         color: '$blue_900',
         transition: '0.5s',
