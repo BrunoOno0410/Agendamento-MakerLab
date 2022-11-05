@@ -111,7 +111,6 @@ export const PasswordRecoverButton = styled('a', {
     textAlign: 'end',
     marginRight: 0,
     marginLeft: 'auto',
-    border: 'solid 1px black',
     '&:hover': {
         color: '$blue_900',
         transition: '0.5s',
