@@ -14,7 +14,7 @@ export const Booking = styled('div', {
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'space-between',
-  py: '10vh',
+  py: '20vh',
   '& h2': {
     fontSize: '$lg',
     fontWeight: '700',
@@ -24,7 +24,7 @@ export const Booking = styled('div', {
 export const BookingButton = styled('button', {
   borderRadius: '16px',
   height: '5rem',
-  width: '30vw',
+  width: '25vw',
   fontSize: '$md',
   fontWeight: '700',
   backgroundColor: '$gray_100',
@@ -49,7 +49,7 @@ export const Login = styled('div', {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'space-between',
-    py: '10vh',
+    py: '20vh',
     '& h2': {
       fontSize: '$lg',
       fontWeight: '700',
@@ -59,7 +59,7 @@ export const Login = styled('div', {
 export const Input = styled('input', {
     borderRadius: '16px',
     height: '4rem',
-    width: '40vw',
+    width: '30vw',
     fontSize: '$md',
     fontWeight: '700',
     backgroundColor: '$gray_200',
@@ -78,7 +78,7 @@ export const Input = styled('input', {
 export const LoginButton = styled('button', {
     borderRadius: '16px',
     height: '5rem',
-    width: '40vw',
+    width: '25vw',
     fontSize: '$md',
     fontWeight: '700',
     backgroundColor: '$blue_800',
@@ -99,7 +99,7 @@ export const FormContainer = styled('form', {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'space-between',
-    gap: '3rem',
+    gap: '4rem',
     '& label': {
         color: '$blue_800',
         fontSize: '$sm',
