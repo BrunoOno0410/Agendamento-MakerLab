@@ -6,7 +6,7 @@ export const LoginPage = () => {
     <>
       <Container>
         <Booking>
-            <img src={LogoFacamp} alt="Logotipo Facamp" />
+          <img src={LogoFacamp} alt="Logotipo Facamp" />
           <h2>MAKERLAB</h2>
           <BookingButton>RESERVAS</BookingButton>
         </Booking>

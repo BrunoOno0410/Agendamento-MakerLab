@@ -1,5 +1,6 @@
 import React from "react";
 import { LoginPage } from "./pages/Login/Login";
+import { BookingPage } from "./pages/UserScreen/UserScreen";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <LoginPage/>,
+  },
+  {
+    path: "/reserva",
+    element: <BookingPage/>,
   },
 ]);
 export const App = () => {
