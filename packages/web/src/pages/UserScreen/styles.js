@@ -10,7 +10,7 @@ export const UpperMenu = styled('div', {
 export const MainDiv = styled('div', {
     height: '94%',
     width: '100%',
-    backgroundColor: '$blue_800',
+    backgroundColor: '$blue_800', //color test
 });
 
 export const LogoFacamp = styled('img', {
@@ -23,6 +23,7 @@ export const DateControl = styled('div', {
     display: 'flex',
 })
 
+//trocar icone
 export const ArrowBack = styled('button', {
     backgroundColor: '$gray_200',
     borderRadius: '24px',
@@ -33,6 +34,7 @@ export const ArrowBack = styled('button', {
     },
 });
 
+//trocar icone
 export const ArrowForward = styled('button', {
     backgroundColor: '$gray_200',
     borderRadius: '24px',
@@ -56,6 +58,7 @@ export const Month = styled('button', {
     },
 });
 
+//não funciona (colocar icone à direita)
 export const LogoutDiv = styled('div', {
     width: '100%',
     display: 'flex',
@@ -71,6 +74,7 @@ export const Logout = styled('button', {
         cursor: 'pointer',
     },
 });
+
 
 export const TimeTable = styled('div', {
     backgroundColor: '$gray_100',
