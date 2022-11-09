@@ -19,13 +19,11 @@ export const BookingPage = () => {
           <Month>Outubro</Month>
           <h2>de 2022</h2>
         </DateControl>
-        
         <LogoutDiv>
           <img src={LogoutIcon} alt="Logo Logout" />
         </LogoutDiv>
       </UpperMenu>
       <MainDiv>
-        <h1>OI</h1>
       </MainDiv>
     </>
   );
