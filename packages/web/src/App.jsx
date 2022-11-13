@@ -1,6 +1,7 @@
 import React from "react";
 import { LoginPage } from "./pages/Login/Login";
 import { BookingPage } from "./pages/UserScreen/UserScreen";
+import { AdmHome } from "./pages/AdmHomeScreen/AdmHomeScreen";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     path: "/reserva",
     element: <BookingPage/>,
   },
+  {
+    path: "/admin",
+    element: <AdmHome/>,
+  }
 ]);
 export const App = () => {
 return (

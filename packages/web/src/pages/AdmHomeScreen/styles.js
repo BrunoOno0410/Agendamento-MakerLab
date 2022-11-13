@@ -1,4 +1,4 @@
-import { render } from 'react-dom';
+import { render } from 'react-dom'; //checar 
 import { styled } from '../../styles/theme';
 
 export const UpperMenu = styled('div', {
@@ -29,7 +29,7 @@ export const LogoFacamp = styled('img', {
 export const DateControl = styled('div', {
     marginLeft: '2rem',
     display: 'flex',
-})
+});
 
 //trocar icone
 export const ArrowBack = styled('button', {
@@ -72,7 +72,7 @@ export const Year = styled('text', {
     fontWeight: '100',
     marginTop: '1.75vh',
     marginLeft: '0.5vw',
-})
+});
 
 export const Logout = styled('button', {
     marginLeft: 'auto',
@@ -86,10 +86,19 @@ export const Logout = styled('button', {
     },
 });
 
+export const AdmMenu = styled('div', {
+    width: '5%',
+    height: '95%',
+    backgroundColor: '$gray_200',
+    marginRight: '2%',
+    display: 'flex',
+    flexDirection: 'column',
+});
+
 export const TimeTable = styled('div', {
     backgroundColor: '$gray_100',
     height: '95%',
-    width: '97%',
+    width: '90%',
     display: 'flex',
     flexDirection: 'column',
 });
