@@ -1,4 +1,4 @@
-import { ArrowBack, ArrowForward, DateControl, UpperTimeTable, LowerTimeTable, Logout, MainDiv, Month, TimeTable, UpperMenu, Year, HourTimeTable, DayTimeTable, WeekDays, DayName, DayNumber, BookingList, UpperDownTimeTable, HourNumber, AdmMenu } from './styles';
+import { ArrowBack, ArrowForward, DateControl, UpperTimeTable, LowerTimeTable, Logout, MainDiv, Month, TimeTable, UpperMenu, Year, HourTimeTable, DayTimeTable, WeekDays, DayName, DayNumber, BookingList, UpperDownTimeTable, HourNumber, AdmMenu, MenuButton } from './styles';
 import LogoFacamp from '../../assets/facampLogo.png'
 import ArrowIconF from '../../assets/arrowForward.svg'
 import ArrowIconB from '../../assets/arrowBack.svg'
@@ -28,7 +28,15 @@ export const AdmHome = () => {
       </UpperMenu>
       <MainDiv>
         <AdmMenu>
-          <img src={homeIcon} alt="Home Icon" />
+          <MenuButton>
+            <img src={homeIcon} alt="Home Icon" />
+          </MenuButton>
+          <MenuButton>
+            <img src={barCharIcon} alt="Chart Icon" />
+          </MenuButton>
+          <MenuButton>
+            <img src={notificationIcon} alt="Notification Icon" />
+          </MenuButton>
         </AdmMenu>
         <TimeTable>
           <UpperTimeTable>

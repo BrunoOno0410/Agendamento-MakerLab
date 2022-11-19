@@ -7,9 +7,7 @@ export const UpperMenu = styled('div', {
     height: '8vh',
     backgroundColor: '$gray_200',
     borderBottom: '2px solid $gray_300',
-    paddingTop: '1vh',
-    paddingBottom: '1vh',
-    paddingLeft: '1vw',
+    py: '1vh',
 });
 
 export const MainDiv = styled('div', {
@@ -77,6 +75,7 @@ export const Year = styled('text', {
 export const Logout = styled('button', {
     marginLeft: 'auto',
     marginRight: '1vw',
+    borderRadius: '16px',
     backgroundColor: '$gray_200',
     alignItems: 'flex-end',
     '&:hover': {
@@ -93,7 +92,20 @@ export const AdmMenu = styled('div', {
     marginRight: '2%',
     display: 'flex',
     flexDirection: 'column',
+    gap: '4vh',
 });
+
+export const MenuButton = styled('button', {
+    backgroundColor: '$gray_200',
+    borderRadius: '20px',
+    '&:hover': {
+        backgroundColor: '$gray_300',
+        transition: '0.5s',
+        cursor: 'pointer',
+    },
+});
+
+export const Calendar = styled('')
 
 export const TimeTable = styled('div', {
     backgroundColor: '$gray_100',
