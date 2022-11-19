@@ -2,6 +2,8 @@ import React from "react";
 import { LoginPage } from "./pages/Login/Login";
 import { BookingPage } from "./pages/UserScreen/UserScreen";
 import { AdmHome } from "./pages/AdmHomeScreen/AdmHomeScreen";
+import { PassRecovery } from "./pages/PassRecovery/PassRecovery";
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -20,7 +22,11 @@ const router = createBrowserRouter([
   {
     path: "/admin",
     element: <AdmHome/>,
-  }
+  },
+  {
+    path: "/recovery",
+    element: <PassRecovery/>,
+  },
 ]);
 export const App = () => {
 return (

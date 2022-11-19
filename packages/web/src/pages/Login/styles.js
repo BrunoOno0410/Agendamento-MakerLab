@@ -92,7 +92,7 @@ export const LoginButton = styled('button', {
     '$:focus': {
       border: 'solid 4px #063859',
     },
-  });
+});
 
 export const FormContainer = styled('form', {
     display: 'flex',
