@@ -121,5 +121,5 @@ export const PasswordRecoverButton = styled('a', {
 export const RecoverContainer = styled('div', {
     width: '100%',
     display: 'flex',
-    alignContent: 'flex-end',
+    justifyContent: 'flex-end',
 });

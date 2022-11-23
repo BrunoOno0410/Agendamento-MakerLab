@@ -7,6 +7,7 @@ export const UpperMenu = styled('div', {
     backgroundColor: '$gray_200',
     borderBottom: '2px solid $gray_300',
     py: '1vh',
+    justifyContent: 'space-between',
 });
 
 export const LogoFacamp = styled('img', {
@@ -65,7 +66,7 @@ export const Logout = styled('button', {
     marginRight: '1vw',
     borderRadius: '16px',
     backgroundColor: '$gray_200',
-    alignItems: 'flex-end',
+    justifyContent: 'flex-end',
     '&:hover': {
         backgroundColor: '$gray_300',
         transition: '0.5s',

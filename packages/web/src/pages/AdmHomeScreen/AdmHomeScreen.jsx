@@ -13,9 +13,7 @@ export const AdmHome = () => {
             <FiHome size={"3rem"} color={"#063859"}/>
           </MenuButton>
           <MenuButton>
-            <strong>
-              <FiBarChart2 size={"3rem"} color={"#063859"}/>
-            </strong>
+            <FiBarChart2 size={"3rem"} color={"#063859"}/>
           </MenuButton>
           <MenuButton>
             <FiBell size={"3rem"} color={"#063859"}/>
