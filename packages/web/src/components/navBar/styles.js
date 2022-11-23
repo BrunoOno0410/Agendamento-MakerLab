@@ -3,7 +3,7 @@ import { styled } from "../../styles/theme";
 export const UpperMenu = styled('div', {
     display: 'flex',
     width: '100%',
-    height: '8vh',
+    height: '12%',
     backgroundColor: '$gray_200',
     borderBottom: '2px solid $gray_300',
     py: '1vh',

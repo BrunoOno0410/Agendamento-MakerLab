@@ -1,7 +1,7 @@
 import { styled } from '../../styles/theme';
 
 export const MainDiv = styled('div', {
-    height: '89%',
+    height: '88%',
     width: '100%',
     backgroundColor: 'white', //color test
     display: 'flex',

@@ -3,6 +3,7 @@ import { LoginPage } from "./pages/Login/Login";
 import { BookingPage } from "./pages/UserScreen/UserScreen";
 import { AdmHome } from "./pages/AdmHomeScreen/AdmHomeScreen";
 import { PassRecovery } from "./pages/PassRecovery/PassRecovery";
+import { AdmStat } from "./pages/AdmStatistic/AdmStatistic";
 
 import {
   createBrowserRouter,
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/recovery",
     element: <PassRecovery/>,
+  },
+  {
+    path: "/adminstat",
+    element: <AdmStat/>,
   },
 ]);
 export const App = () => {
