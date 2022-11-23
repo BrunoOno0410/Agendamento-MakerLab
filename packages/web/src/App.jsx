@@ -4,6 +4,7 @@ import { BookingPage } from "./pages/UserScreen/UserScreen";
 import { AdmHome } from "./pages/AdmHomeScreen/AdmHomeScreen";
 import { PassRecovery } from "./pages/PassRecovery/PassRecovery";
 import { AdmStat } from "./pages/AdmStatistic/AdmStatistic";
+import { AdmNotif } from "./pages/AdmNotification/AdmNotification";
 
 import {
   createBrowserRouter,
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/adminstat",
     element: <AdmStat/>,
+  },
+  {
+    path: "/adminnotif",
+    element: <AdmNotif/>,
   },
 ]);
 export const App = () => {

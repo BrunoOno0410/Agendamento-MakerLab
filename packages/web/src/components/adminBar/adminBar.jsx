@@ -10,12 +10,17 @@ export const AdminBarComponent = () => {
               <FiHome size={"3rem"} color={"#063859"}/>
             </MenuButton>
           </Link>
-          <MenuButtonClicked>
-            <FiBarChart2 size={"3rem"} color={"#063859"}/>
-          </MenuButtonClicked>
-          <MenuButton>
-            <FiBell size={"3rem"} color={"#063859"}/>
-          </MenuButton>
+          <Link to='/adminstat'>
+            <MenuButtonClicked>
+              <FiBarChart2 size={"3rem"} color={"#063859"}/>
+            </MenuButtonClicked>
+          </Link>
+          <Link to='/adminnotif'>
+            <MenuButton>
+              <FiBell size={"3rem"} color={"#063859"}/>
+            </MenuButton>
+          </Link>
+          
         </AdmMenu>
     )
 }
