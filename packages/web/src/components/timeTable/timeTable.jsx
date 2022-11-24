@@ -172,7 +172,7 @@ export const TimeTableComponent = () => {
                     <BookingList></BookingList>
                     <BookingList></BookingList>
                     <BookingList></BookingList>
-                    <BookingList></BookingList>
+                    <BookingList style={{borderRight: 'none', borderBottomRightRadius: '1rem'}}></BookingList>
                 </DayTimeTable>
             </LowerTimeTable>
         </TimeTable>

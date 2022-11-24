@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FiBarChart2, FiBell, FiHome } from "react-icons/fi"
-import { AdmMenu, MenuButton } from './styles';
+import { AdmMenu, MenuButton, Notification } from './styles';
 
 export const AdminBarComponent = (props) => {
     return (
@@ -18,6 +18,7 @@ export const AdminBarComponent = (props) => {
           <Link to='/adminnotif'>
             <MenuButton style={props.admNotif ? {backgroundColor: '#c8cdd1', border: '1px solid #5f7280', paddingLeft: '0.5rem', paddingRight: '0.5rem'} : {}}>
               <FiBell size={"3rem"} color={"#063859"}/>
+              <Notification>9</Notification>
             </MenuButton>
           </Link>
           

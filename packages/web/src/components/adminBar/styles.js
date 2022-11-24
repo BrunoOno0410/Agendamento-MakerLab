@@ -8,6 +8,7 @@ export const AdmMenu = styled('div', {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    borderRadius: '1rem',
     gap: '4vh',
     py: '1vh',
 });
@@ -15,6 +16,7 @@ export const AdmMenu = styled('div', {
 export const MenuButton = styled('button', {
     backgroundColor: '$gray_200',
     borderRadius: '20px',
+    position: 'relative',
     py: '1vh',
     '&:hover': {
         px: '0.5rem',
@@ -22,4 +24,15 @@ export const MenuButton = styled('button', {
         transition: '0.5s',
         cursor: 'pointer',
     },
+});
+
+export const Notification = styled('div', {
+    position: 'absolute',
+    top: '-10px',
+    right: '-10px',
+    padding: '5px 10px',
+    borderRadius: '50%',
+    background: 'red',
+    color: 'White',
+    border: '1px solid #5f7280',
 });

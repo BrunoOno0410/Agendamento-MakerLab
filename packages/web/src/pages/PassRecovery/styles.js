@@ -13,9 +13,12 @@ export const CenterDiv = styled('div', {
   height: '80vh',
   width: '40vw',
   mx: 'auto',
-  borderRadius: '16px',
+  borderRadius: '1rem',
+  display: 'flex',
+  flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
+  gap: '5%',
   color: '$blue_800',
   '& h2': {
     fontSize: '$ml',
@@ -34,7 +37,6 @@ export const FormContainer = styled('form', {
   alignItems: 'center',
   justifyContent: 'center',
   gap: '15%',
-  
   '& label': {
       color: '$blue_800',
       fontSize: '$sm',
@@ -61,8 +63,8 @@ export const Input = styled('input', {
 
 export const LoginButton = styled('button', {
   borderRadius: '16px',
-  height: '12%',
-  width: '50%',
+  height: '15%',
+  width: '90%',
   fontSize: '$md',
   fontWeight: '700',
   backgroundColor: '$blue_800',

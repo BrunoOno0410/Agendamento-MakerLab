@@ -6,13 +6,16 @@ export const TimeTable = styled('div', {
     width: '97%',
     display: 'flex',
     flexDirection: 'column',
+    borderRadius: '1rem',
 });
 
 export const UpperTimeTable = styled('div', {
     flex: '1',
     backgroundColor: '$gray_200',
     paddingLeft:'7.69%',
-    display: 'flex',    
+    display: 'flex',  
+    borderTopLeftRadius: '1rem',
+    borderTopRightRadius: '1rem',  
 });
 
 export const UpperDownTimeTable = styled('div', {
@@ -26,6 +29,8 @@ export const LowerTimeTable = styled('div', {
     flex: '12',
     display: 'flex',
     backgroundColor: '$gray_200',
+    borderBottomLeftRadius: '1rem',
+    borderBottomRightRadius: '1rem',
 });
 
 export const HourTimeTable = styled('div', {
@@ -33,12 +38,14 @@ export const HourTimeTable = styled('div', {
     display: 'flex',
     flexDirection: 'column',
     backgroundColor: '$gray_200',
+    borderBottomLeftRadius: '1rem',
 });
 
 export const DayTimeTable = styled('div', {
     flex: '12',
     display: 'flex',
     backgroundColor: '$gray_200',
+    borderBottomRightRadius: '1rem',
 });
 
 export const BookingList = styled('div', {
@@ -63,7 +70,6 @@ export const BookingList = styled('div', {
 export const WeekDays = styled('div', {
     flex: '20',
     borderLeft: '1px solid $gray_300',
-    borderRight: '1px solid $gray_300',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
