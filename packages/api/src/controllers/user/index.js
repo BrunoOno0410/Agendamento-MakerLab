@@ -20,7 +20,6 @@ export const create = async (req, res) => {
       },
     });
     
-    console.log("entrou aqui")
     return res.status(201).json({ message: 'criado com sucesso' });
   } catch(error) {console.log(error)}
 };
