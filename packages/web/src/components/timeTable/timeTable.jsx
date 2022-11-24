@@ -1,11 +1,12 @@
 import {useEffect, useState} from 'react'
 import { getData } from '../../api';
+import { BookingPopUp } from '../bookingPopUp/bookingPopUp';
 import { UpperTimeTable, LowerTimeTable, TimeTable, HourTimeTable, DayTimeTable, WeekDays, DayName, DayNumber, BookingList, UpperDownTimeTable, HourNumber } from './styles';
 
 export const TimeTableComponent = () => {
     //const [data, setData] = useState({})
 
-        const data = getData()
+    const data = getData()
     return (
     <>
         <TimeTable>
@@ -63,9 +64,11 @@ export const TimeTableComponent = () => {
                     <BookingList>{Object.keys(data.mon['08']).length != 0 ? (
                             <>
                                 <button>
-                                    {
-                                        data.mon['08'].event.user.name
-                                    }
+                                    <BookingPopUp>
+                                        {
+                                            data.mon['08'].event.user.name
+                                        }  
+                                    </BookingPopUp>
                                 </button>
                             </>
                         ) : <div></div>}
@@ -108,9 +111,11 @@ export const TimeTableComponent = () => {
                         {Object.keys(data.mon['13']).length != 0 ? (
                             <>
                                 <button>
-                                    {
-                                        data.mon['13'].event.user.name
-                                    }
+                                    <BookingPopUp>
+                                        {
+                                            data.mon['13'].event.user.name
+                                        }   
+                                    </BookingPopUp>
                                 </button>
                             </>
                         ) : <div></div>}
@@ -135,9 +140,11 @@ export const TimeTableComponent = () => {
                         {Object.keys(data.mon['16']).length != 0 ? (
                             <>
                                 <button>
-                                    {
-                                        data.mon['16'].event.user.name
-                                    }
+                                    <BookingPopUp>
+                                        {
+                                            data.mon['16'].event.user.name
+                                        }
+                                    </BookingPopUp>
                                 </button>
                             </>
                         ) : <div></div>}

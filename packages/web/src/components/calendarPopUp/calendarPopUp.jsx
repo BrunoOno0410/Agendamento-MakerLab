@@ -1,7 +1,6 @@
 import React from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
-import { DialogOverlay, DialogContent, DialogTitle, DialogDescription, Flex, Button, IconButton, Fieldset, Label, Input} from './styles';
-import { FiX, FiPlus } from "react-icons/fi";
+import { DialogOverlay, DialogContent } from './styles';
 import { Calendar } from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 

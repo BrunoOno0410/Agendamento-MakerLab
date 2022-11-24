@@ -9,7 +9,7 @@ export const getData = () => {
           content: 'Conteúdo',
           user: {
             id: '1',
-            name: 'Ono',
+            name: 'Bruno',
           },
         },
       },
@@ -25,7 +25,7 @@ export const getData = () => {
           content: 'Conteúdo',
           user: {
             id: '1',
-            name: 'Ono',
+            name: 'Pedro',
           },
         },
       },
@@ -39,7 +39,7 @@ export const getData = () => {
           content: 'Conteúdo',
           user: {
             id: '1',
-            name: 'Ono',
+            name: 'Teddy',
           },
         },
       },
@@ -47,4 +47,4 @@ export const getData = () => {
       '18': {},
       '19': {},
     }}
-  };
+};
