@@ -1,4 +1,4 @@
-import { MainDiv } from './styles';
+import { MainDiv, StatDiv } from './styles';
 import { NavBar } from '../../components/navBar/navBar';
 import { AdminBarComponent } from "../../components/adminBar/adminBar";
 
@@ -7,7 +7,10 @@ export const AdmStat = () => {
     <>
       <NavBar isAdmin/>
       <MainDiv>
-        <AdminBarComponent/>
+        <AdminBarComponent admStat/>
+          <StatDiv>
+            oi
+          </StatDiv>
       </MainDiv>
     </>
   );

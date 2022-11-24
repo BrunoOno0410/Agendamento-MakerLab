@@ -1,4 +1,5 @@
 import { styled } from "../../styles/theme";
+import { Link } from "react-router-dom";
 
 export const UpperMenu = styled('div', {
     display: 'flex',
@@ -72,4 +73,10 @@ export const Logout = styled('button', {
         transition: '0.5s',
         cursor: 'pointer',
     },
+});
+
+export const StyledLink = styled(Link, {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
 });

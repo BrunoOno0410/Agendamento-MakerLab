@@ -17,7 +17,7 @@ export const UpperTimeTable = styled('div', {
 
 export const UpperDownTimeTable = styled('div', {
     flex: '1',
-    backgroundColor: '$blue_500',
+    backgroundColor: '$blue_300',
     paddingLeft:'7.69%',
     display: 'flex',    
 });
@@ -54,6 +54,9 @@ export const BookingList = styled('div', {
     },
     'button': {
         flex: '1',
+        backgroundColor: '$blue_100',
+        color: '$blue_800',
+        fontWeight: 'bold',
     }
 });
 

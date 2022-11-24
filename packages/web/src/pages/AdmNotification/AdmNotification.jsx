@@ -7,7 +7,7 @@ export const AdmNotif = () => {
     <>
       <NavBar isAdmin/>
       <MainDiv>
-        <AdminBarComponent/>
+        <AdminBarComponent admNotif/>
       </MainDiv>
     </>
   );

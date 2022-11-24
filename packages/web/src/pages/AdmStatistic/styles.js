@@ -9,3 +9,11 @@ export const MainDiv = styled('div', {
     
 });
 
+export const StatDiv = styled('div', {
+    backgroundColor: '#76A056',
+    height: '95%',
+    width: '97%',
+    display: 'flex',
+    flexDirection: 'column',
+});
+

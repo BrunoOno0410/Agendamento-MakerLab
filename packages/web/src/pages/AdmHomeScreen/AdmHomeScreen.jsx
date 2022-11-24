@@ -8,7 +8,7 @@ export const AdmHome = () => {
     <>
       <NavBar isAdmin/>
       <MainDiv>
-        <AdminBarComponent/>
+        <AdminBarComponent admHome/>
         <TimeTableComponent/>
       </MainDiv>
     </>
