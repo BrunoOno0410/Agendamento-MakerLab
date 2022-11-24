@@ -80,3 +80,16 @@ export const StyledLink = styled(Link, {
     flexDirection: 'column',
     justifyContent: 'center',
 });
+
+export const AddBooking = styled('button', {
+    margin: '1vw',
+    borderRadius: '1rem',
+    backgroundColor: '$gray_200',
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    '&:hover': {
+        backgroundColor: '$gray_300',
+        transition: '0.5s',
+        cursor: 'pointer',
+    },
+});

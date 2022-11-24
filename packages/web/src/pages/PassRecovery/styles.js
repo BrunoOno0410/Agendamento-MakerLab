@@ -23,6 +23,7 @@ export const CenterDiv = styled('div', {
   '& h2': {
     fontSize: '$ml',
     fontWeight: '700',
+    marginTop: '2rem',
   },
   '& h3': {
     fontSize: '$md',
