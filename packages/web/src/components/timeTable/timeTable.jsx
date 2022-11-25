@@ -151,7 +151,92 @@ export const TimeTableComponent = ({week, year}) => {
                             </>
                         ) : <div></div>}
                     </BookingList>
-                    <BookingList></BookingList>
+                    <BookingList>
+                        {Object.keys(data.tue['08']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.tue['08']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.tue['09']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.tue['09']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.tue['10']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.tue['10']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.tue['11']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.tue['11']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.tue['12']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.tue['12']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.tue['13']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.tue['13']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.tue['14']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.tue['14']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.tue['15']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.tue['15']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.tue['16']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.tue['16']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.tue['17']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.tue['17']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.tue['18']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.tue['18']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.tue['19']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.tue['19']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                    </BookingList>
                     <BookingList>
                         {Object.keys(data.wed['08']).length != 0 ? (
                             <>
@@ -238,89 +323,174 @@ export const TimeTableComponent = ({week, year}) => {
                             </>
                         ) : <div></div>}
                     </BookingList>
-                    <BookingList></BookingList>
+                    <BookingList>
+                        {Object.keys(data.thu['08']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.thu['08']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.thu['09']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.thu['09']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.thu['10']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.thu['10']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.thu['11']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.thu['11']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.thu['12']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.thu['12']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.thu['13']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.thu['13']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.thu['14']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.thu['14']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.thu['15']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.thu['15']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.thu['16']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.thu['16']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.thu['17']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.thu['17']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.thu['18']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.thu['18']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                        {Object.keys(data.thu['19']).length != 0 ? (
+                            <>
+                                <button>
+                                    <BookingPopUp data={data.thu['19']}/>
+                                </button>
+                            </>
+                        ) : <div></div>}
+                    </BookingList>
                     <BookingList style={{borderRight: 'none', borderBottomRightRadius: '1rem'}}>
-                    {Object.keys(data.fry['08']).length != 0 ? (
+                    {Object.keys(data.fri['08']).length != 0 ? (
                             <>
                                 <button>
-                                    <BookingPopUp data={data.fry['08']}/>
+                                    <BookingPopUp data={data.fri['08']}/>
                                 </button>
                             </>
                         ) : <div></div>}
-                        {Object.keys(data.fry['09']).length != 0 ? (
+                        {Object.keys(data.fri['09']).length != 0 ? (
                             <>
                                 <button>
-                                    <BookingPopUp data={data.fry['09']}/>
+                                    <BookingPopUp data={data.fri['09']}/>
                                 </button>
                             </>
                         ) : <div></div>}
-                        {Object.keys(data.fry['10']).length != 0 ? (
+                        {Object.keys(data.fri['10']).length != 0 ? (
                             <>
                                 <button>
-                                    <BookingPopUp data={data.fry['10']}/>
+                                    <BookingPopUp data={data.fri['10']}/>
                                 </button>
                             </>
                         ) : <div></div>}
-                        {Object.keys(data.fry['11']).length != 0 ? (
+                        {Object.keys(data.fri['11']).length != 0 ? (
                             <>
                                 <button>
-                                    <BookingPopUp data={data.fry['11']}/>
+                                    <BookingPopUp data={data.fri['11']}/>
                                 </button>
                             </>
                         ) : <div></div>}
-                        {Object.keys(data.fry['12']).length != 0 ? (
+                        {Object.keys(data.fri['12']).length != 0 ? (
                             <>
                                 <button>
-                                    <BookingPopUp data={data.fry['12']}/>
+                                    <BookingPopUp data={data.fri['12']}/>
                                 </button>
                             </>
                         ) : <div></div>}
-                        {Object.keys(data.fry['13']).length != 0 ? (
+                        {Object.keys(data.fri['13']).length != 0 ? (
                             <>
                                 <button>
-                                    <BookingPopUp data={data.fry['13']}/>
+                                    <BookingPopUp data={data.fri['13']}/>
                                 </button>
                             </>
                         ) : <div></div>}
-                        {Object.keys(data.fry['14']).length != 0 ? (
+                        {Object.keys(data.fri['14']).length != 0 ? (
                             <>
                                 <button>
-                                    <BookingPopUp data={data.fry['14']}/>
+                                    <BookingPopUp data={data.fri['14']}/>
                                 </button>
                             </>
                         ) : <div></div>}
-                        {Object.keys(data.fry['15']).length != 0 ? (
+                        {Object.keys(data.fri['15']).length != 0 ? (
                             <>
                                 <button>
-                                    <BookingPopUp data={data.fry['15']}/>
+                                    <BookingPopUp data={data.fri['15']}/>
                                 </button>
                             </>
                         ) : <div></div>}
-                        {Object.keys(data.fry['16']).length != 0 ? (
+                        {Object.keys(data.fri['16']).length != 0 ? (
                             <>
                                 <button>
-                                    <BookingPopUp data={data.fry['16']}/>
+                                    <BookingPopUp data={data.fri['16']}/>
                                 </button>
                             </>
                         ) : <div></div>}
-                        {Object.keys(data.fry['17']).length != 0 ? (
+                        {Object.keys(data.fri['17']).length != 0 ? (
                             <>
                                 <button>
-                                    <BookingPopUp data={data.fry['17']}/>
+                                    <BookingPopUp data={data.fri['17']}/>
                                 </button>
                             </>
                         ) : <div></div>}
-                        {Object.keys(data.fry['18']).length != 0 ? (
+                        {Object.keys(data.fri['18']).length != 0 ? (
                             <>
                                 <button>
-                                    <BookingPopUp data={data.fry['18']}/>
+                                    <BookingPopUp data={data.fri['18']}/>
                                 </button>
                             </>
                         ) : <div></div>}
-                        {Object.keys(data.fry['19']).length != 0 ? (
+                        {Object.keys(data.fri['19']).length != 0 ? (
                             <>
                                 <button>
-                                    <BookingPopUp data={data.fry['19']}/>
+                                    <BookingPopUp data={data.fri['19']}/>
                                 </button>
                             </>
                         ) : <div></div>}
