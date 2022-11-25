@@ -9,16 +9,15 @@ export const NavBar = (props) => {
         <UpperMenu>
             <img src={LogoFacamp} alt="Logotipo Facamp" />
             <DateControl>
-                <ArrowBack>
+                <ArrowBack onClick={props.subWeek}>
                     <FiChevronLeft size={"3rem"} color={"#063859"}/>
                 </ArrowBack>
-                <ArrowForward>
+                <ArrowForward onClick={props.addWeek}>
                     <FiChevronRight size={"3rem"} color={"#063859"}/>
                 </ArrowForward>
                 <Month>
-                    <CalendarPopUp></CalendarPopUp>
+                    <CalendarPopUp month={props.month} setWeekState={props.setWeekState}/>
                 </Month>
-                <Year>de 2022</Year>
             </DateControl>
             {props.isAdmin ? (
                 <StyledLink to='/login'>

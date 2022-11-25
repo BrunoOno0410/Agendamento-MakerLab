@@ -1,16 +1,15 @@
 import React from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
-import { DialogOverlay, DialogContent, DialogTitle, DialogDescription, Flex, Button, IconButton, Fieldset, Label, Input, Select} from './styles';
-import { FiX, FiPlus } from "react-icons/fi";
+import { DialogOverlay, DialogContent, DialogTitle, IconButton, Fieldset, Label } from './styles';
+import { FiX } from "react-icons/fi";
 import { getData } from '../../api';
 
-export const BookingPopUp = () => {
+export const BookingPopUp = ({data}) => {
 
-    const data = getData()
     return (
         <Dialog.Root>
             <Dialog.Trigger asChild>
-                <p>{Object.assign(data.mon[13]).event.user.name}</p>
+                <p>{data.event.user.name}</p>
             </Dialog.Trigger>
             <Dialog.Portal>
                 <DialogOverlay/>
@@ -18,27 +17,27 @@ export const BookingPopUp = () => {
                     <DialogTitle>Horario de Agendamento</DialogTitle><br/>
                     <Fieldset>
                         <Label htmlFor="name">Nome do reservante</Label>
-                        <p>{Object.assign(data.mon['08']).event.user.name}</p>
+                        <p>{data.event.user.name}</p>
                     </Fieldset>
                     <Fieldset>
                         <Label>RA</Label>
-                        <p id="RA" placeholder='Seu RA'/>
+                        <p>{data.event.user.ra}</p>
                     </Fieldset>
                     <Fieldset>
                         <Label>Número de Pessoas</Label>
-                        <p id="NumPessoas" placeholder='Quantas pessoas' />
+                        <p>{data.event.pnumber}</p>
                     </Fieldset>
                     <Fieldset>
                         <Label>Uso de ferramentas</Label>
-                        <p id="Uso de ferramentas"/>
+                        <p>{data.event.tools}</p>
                     </Fieldset>
                     <Fieldset>
                         <Label>Dia</Label>
-                        <p id="Data" placeholder='Dia'/>
+                        <p>{data.event.day}</p>
                     </Fieldset>
                     <Fieldset>
                         <Label>Horário</Label>
-                        <p>{Object.assign(data.mon[13]).event.date}</p>
+                        <p>{data.event.time}</p>
                     </Fieldset>
                     <Dialog.Close asChild>
                         <IconButton aria-label="Fechar">
