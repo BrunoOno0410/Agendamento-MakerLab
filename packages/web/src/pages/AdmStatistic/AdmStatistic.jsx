@@ -1,6 +1,7 @@
 import { MainDiv, StatDiv } from './styles';
 import { NavBar } from '../../components/navBar/navBar';
 import { AdminBarComponent } from "../../components/adminBar/adminBar";
+import { FiTool } from "react-icons/fi";
 
 export const AdmStat = () => {
   
@@ -10,7 +11,8 @@ export const AdmStat = () => {
       <MainDiv>
         <AdminBarComponent admStat/>
           <StatDiv>
-            oi
+            <FiTool size={"18rem"} color={"#063859"}/>
+            <h1>Em breve...</h1>
           </StatDiv>
       </MainDiv>
     </>
