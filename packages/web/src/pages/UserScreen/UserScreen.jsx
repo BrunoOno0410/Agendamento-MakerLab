@@ -25,7 +25,7 @@ export const BookingPage = () => {
 
   return (
     <>
-      <NavBar addWeek={addWeek} subWeek={subWeek} month={month} setWeekState={setWeekState}/>
+      <NavBar useCalendar addWeek={addWeek} subWeek={subWeek} month={month} setWeekState={setWeekState}/>
       <MainDiv>
         <TimeTableComponent week={weekState} year={year}/>
       </MainDiv>

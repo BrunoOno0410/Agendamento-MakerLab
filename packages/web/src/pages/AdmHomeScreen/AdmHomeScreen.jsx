@@ -26,7 +26,7 @@ export const AdmHome = () => {
 
   return (
     <>
-      <NavBar isAdmin addWeek={addWeek} subWeek={subWeek} month={month} setWeekState={setWeekState}/>
+      <NavBar isAdmin useCalendar addWeek={addWeek} subWeek={subWeek} month={month} setWeekState={setWeekState}/>
       <MainDiv>
         <AdminBarComponent admHome/>
         <TimeTableComponent week={weekState} year={year}/>

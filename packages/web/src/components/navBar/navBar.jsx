@@ -8,7 +8,8 @@ export const NavBar = (props) => {
     return (
         <UpperMenu>
             <img src={LogoFacamp} alt="Logotipo Facamp" />
-            <DateControl>
+            {props.useCalendar ? (
+                <DateControl>
                 <ArrowBack onClick={props.subWeek}>
                     <FiChevronLeft size={"3rem"} color={"#063859"}/>
                 </ArrowBack>
@@ -18,7 +19,9 @@ export const NavBar = (props) => {
                 <Month>
                     <CalendarPopUp month={props.month} setWeekState={props.setWeekState}/>
                 </Month>
-            </DateControl>
+                </DateControl>
+            ) : <></>}
+            
             {props.isAdmin ? (
                 <StyledLink to='/login'>
                     <Logout>
